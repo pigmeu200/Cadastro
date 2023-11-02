@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xyear | Cadastro</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <nav>
+      
+      <h1 class="logo"><span>X</span>year</h1>
+      <hr class="hr">
+      <p>Cadastro</p>
+    </nav>
+
+    <section>
+      
+      <div class="main-login">
+        <div class="left-login">
+          <h1>Faça Seu Cadastro Agora Mesmo<br /></h1>
+
+          <img src="./files/server-animate.svg" class="left-login-image" alt="">
+
+        </div>
+        <div class="right-login">
+          <div class="card-login">
+
+            <h1>CADASTRO</h1>
+
+            <div class="textfield">
+            <label for="usuario">Nome</label>
+            <input type="text" name="nome" placeholder="Nome" />
+            </div>
+
+            <div class="textfield">
+            <label for="data-de-nascimento">Data de nascimento</label>
+            <input type="date" name="data" placeholder="Data de nascimento" />
+            </div>
+
+
+            <div class="textfield">
+            <label for="E-mail">E-mail</label>
+            <input type="email" name="email" placeholder="E-mail" />
+            </div>
+
+            <div class="textfield">
+            <label for="sexo">Sexo</label>
+            <div class="sexo">     
+                <input type="radio" name="Sexo" value="M"> <strong>Masculino</strong> <br>
+            <input type="radio" name="Sexo" value="f"> <strong>Femenino</strong>
+            </div>
+            <br>
+            <br>
+            <br>
+            
+            
+            </div> 
+
+            <div class="textfield">
+            <label for="usuario">Usuário</label>
+            <input type="text" name="usuario" placeholder="Usuário" />
+            </div>
+
+
+
+            <br>
+            <div class="textfield">
+                <label class="senha" for="senha">Senha </label>
+                <div class="password">
+            <input type="password" id="senha" placeholder="Senha"/><i class="bi bi-eye-fill" id="olho" onclick="mostrarSenha()"></i> </div>
+
+
+                <label class="senha" for="senha">Repita Senha </label>
+                <div class="password">
+            <input type="password" id="senhar" placeholder="Senha"/><i class="bi bi-eye-fill" id="olhor" onclick="mostrarSenhar()"></i> </div>
+            
+            <div class="links">
+            <a class="cadastro" href="../login/index.html">ENVIAR</a>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <footer></footer>
+
+    <script src="./index.js"></script>
+    </body>
+</html>
